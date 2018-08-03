@@ -11,7 +11,6 @@ body {
 header { 
     width: 100%;
     background-color:#ffffff;
-    margin-left: 10%;
 }
 
  .about {
@@ -256,13 +255,21 @@ input {
     width: 300px;
     height: 200px;
     margin-bottom: 40px;
-    left: 350px;
-top: -156px;;
+    left: 50%;
+    top: -156px;
 }
 
 .widget {
     width: 300px;
     height: 200px;
+    border-top-width: 1px;
+border-top-style: solid;
+border-right-width: 1px;
+border-right-style: solid;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-left-width: 1px;
+border-left-style: solid;
 }
 
  .widget-banner { 
@@ -275,6 +282,7 @@ top: -156px;;
     color:#ffffff;
     text-align:center;
     bottom: 22px;
+    left: 1px;
 } 
 
 .pic5{
@@ -290,6 +298,14 @@ top: -156px;;
     height: 200px;
     margin-right: 59px;
     float: left;
+    border-top-width: 1px;
+border-top-style: solid;
+border-right-width: 1px;
+border-right-style: solid;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-left-width: 1px;
+border-left-style: solid;
 }
 
  .rock-paper-scissors-banner {
@@ -301,7 +317,8 @@ top: -156px;;
     background-color: #4aaaa5;
     color:#ffffff;
     text-align:center;
-    top:128px;
+    top:88px;
+    left: 1px;
 }
 
 
@@ -315,7 +332,6 @@ top: -156px;;
     padding-top: 28px;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 100px;
     padding-left: 46px;
 
 }
@@ -335,6 +351,8 @@ top: -156px;;
     margin-right: 47px;
 }
 
+/*below this line is media query code to adjust code as screen changes size*/
+
   @media screen and (max-width: 980px) { 
     
     header {
@@ -343,8 +361,84 @@ top: -156px;;
 
     .portfolio {
         margin-left: 35%;
-    } 
+    }
+
+    .pic1{
+        width:200px;
+        height:150px 
+    }
+    
+    .word-guess{
+        width:200px;
+        height:150px;
+    }
+
+    .word-guess-banner {
+        width:200px;
+    }
+
+    .pic2{
+        width:200px;
+        height:150px; 
+        margin-top: -188px;
+    }
+    
+    .rpg{
+        width:200px;
+        height:150px
+    }
+
+    .rpg-banner {
+        width:200px;
+    }
+
+    .pic3{
+        width:200px;
+        height:150px;
+    }
+
+    .trivia {
+        width:200px;
+        height:150px;
+    }
+
+    .trivia-banner {
+        width:200px;
+        top: 81px;
+    }
+
+    .pic4{
+        width:200px;
+        height:150px;
+        top: -106px; 
+    }
+
+    .widget{
+        width:200px;
+        height:150px; 
+    }
+
+    .widget-banner{
+        width:200px;
+    }
+
+    .pic5{
+        width:200px;
+        height:150px;
+        top: -78px; 
+    }
+
+    .rock-paper-scissors{
+        width:200px;
+        height:150px; 
+    }
+
+    .rock-paper-scissors-banner{
+        width:200px;
+    }
+
   }
+
 
   @media screen and (max-width: 768px) { 
      
@@ -352,7 +446,7 @@ top: -156px;;
          background-color: blue;
      }
     .portfolio {
-        margin-left: 10%;
+        margin-left: 28%;
     }     
 }
 
@@ -365,22 +459,179 @@ top: -156px;;
     .header{
         display: block;
         float: none;
-        width:100%;
-       
+        width:100%;  
     }
+
      .links {
          display: block;
          float: none;
-         align:center;
          margin-left:25%;
      }   
 
      .portfolio {
          margin-left: 5%;
      }
+
      .container-portfolio {
          margin: 5%;
          width:82%;
+         height:1800px;
      }
-    
+
+     .h2-portfolio {
+        margin-right: 6%
+     }
+
+     .pic1{
+        position: relative;
+        width: 94%;
+        height:0 auto;
+    }
+   
+    .word-guess {
+        position: absolute;
+        width: 100%;
+        height: 300px;
+   
+   }
+   
+    .word-guess-banner{ 
+       position: absolute;
+       width: 100%;
+       height: 35px;
+       padding-top: 13px;
+       background-color: #4aaaa5;
+       color:#ffffff;
+       text-align:center;
+       right: 0px;
+       bottom:15px;
+       top: 223px;
+    }
+   
+   .pic2{
+       position: relative;
+       width: 94%;
+       height:0 auto;
+       left: 0px;
+       margin-top: 0px;
+       top: 150px;  
+   }
+   
+   .rpg {
+       width: 100%;
+       height: 300px;
+   }
+   
+   .rpg-banner { 
+       position: absolute;
+       right: 0px;
+       width: 100%;
+       height: 35px;
+       padding-top: 13px;
+       background-color: #4aaaa5;
+       color:#ffffff;
+       text-align:center;
+       bottom: 29px;
+       top: 224px;
+   }
+   
+   .pic3{
+       position: relative;
+       width: 94%;
+       height: 0 auto;
+       top: 335px;
+    }
+   
+   .trivia {
+       width: 100%;
+       height: 300px;
+   }
+   
+    .trivia-banner{ 
+       position: absolute;
+       right: 0px;
+       width: 100%;
+       height: 35px;
+       padding-top: 13px;
+       background-color: #4aaaa5;
+       color:#ffffff;
+       text-align:center;
+       top: 221px;
+   }
+   
+   .pic4{
+       position: relative;
+       width: 94%;
+        height: 0 auto;
+       margin-bottom: 40px;
+       left:0px;
+       top: 519px;;
+   }
+   
+   .widget {
+       width: 100%;
+       height: 300px;
+       border-top-width: 1px;
+   border-top-style: solid;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-left-width: 1px;
+   border-left-style: solid;
+   }
+   
+    .widget-banner { 
+       position: absolute;
+       right: 0px;
+       width: 100%;
+       height: 35px;
+       padding-top: 13px;
+       background-color: #4aaaa5;
+       color:#ffffff;
+       text-align:center;
+       bottom: -28px;
+       left: 1px;
+       top: 218px;
+   } 
+   
+   .pic5{
+       position: relative;
+       width: 94%;
+       height: 0 auto;
+       top: 670px;
+       
+   }
+   
+   .rock-paper-scissors {
+       width: 100%;
+       height: 300px;
+       margin-right: 59px;
+       float: left;
+       border-top-width: 1px;
+   border-top-style: solid;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-left-width: 1px;
+   border-left-style: solid;
+   }
+   
+    .rock-paper-scissors-banner {
+       position: absolute;
+       right: 0px; 
+       width: 100%;
+       height: 35px;
+       padding-top: 13px;
+       background-color: #4aaaa5;
+       color:#ffffff;
+       text-align:center;
+       top: 225px;
+       left: 1px;
+   }
+
+
+
+
  }
