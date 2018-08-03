@@ -48,6 +48,7 @@ header {
     margin-top: 0px;
 margin-bottom: 0px;
 padding-top: 22px;
+margin-left: 10%;
 }
 
 .links{
@@ -360,7 +361,7 @@ border-left-style: solid;
      }
 
     .portfolio {
-        margin-left: 35%;
+        margin-left: 26%;
     }
 
     .pic1{
@@ -446,7 +447,7 @@ border-left-style: solid;
          background-color: blue;
      }
     .portfolio {
-        margin-left: 28%;
+        margin-left: 15%;
     }     
 }
 
@@ -454,12 +455,13 @@ border-left-style: solid;
     
     header {
         background-color: red;
-        margin-left: 0px;
     }
+
     .header{
         display: block;
         float: none;
-        width:100%;  
+        width:100%; 
+        margin-left:0px; 
     }
 
      .links {
